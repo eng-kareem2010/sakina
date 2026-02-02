@@ -1,0 +1,115 @@
+:root {
+    --creamyColor: #F9F6EE;
+    --primaryGreen: #2D4628;
+    --lightGreen: #6B8E23;
+    --goldenColor: #C5A059;
+}
+
+.masbaha {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    margin-top: 150px;
+}
+
+.zekrCont {
+    align-self: center;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+
+#mark {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.x {
+    color: red;
+}
+
+.t {
+    color: green;
+}
+
+.fit {
+    width: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    border: 10px solid var(--goldenColor);
+    border-radius: 20px;
+    align-content: center;
+
+}
+
+.masbaha h1 {
+    font-family: Cairo;
+    color: var(--primaryGreen);
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.masbaha p {
+    font-family: Cairo;
+    font-size: 18px;
+}
+
+#zekr_input {
+    width: 250px;
+    height: 50px;
+    align-self: center;
+    font-family: Cairo;
+    color: var(--primaryGreen);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#masbahaScreen {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    align-self: center;
+    text-align: center;
+    border: 1px solid var(--goldenColor);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+}
+.buttons {
+    align-self: center;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+
+.buttons button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--primaryGreen);
+    color: white;
+    font-family: Arial;
+
+}
+
+@media(max-width:400px) {
+    .fit {
+        width: 100%;
+    }
+    .zekrCont {
+        align-self: center;
+        align-items: center;
+        display: flex;
+        flex-flow: column wrap;
+        gap: 10px;
+    }
+    .zekrCont{
+        width: 100%;
+    }
+   #zekr_input {
+    width: 100%;
+   }
+}
